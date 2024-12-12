@@ -113,8 +113,6 @@ Polynomial Polynomial::Mult(const Polynomial& poly) const {
 
 ### 空間複雜度
 
-terms: O( $n$ )
-
 Add: O( $n1+n2$ ) 其中 n1 和 n2 分別是兩個多項式的非零項數量。
 
 Mult: O( $n1 \times n2$ )
@@ -122,8 +120,6 @@ Mult: O( $n1 \times n2$ )
 Eval: O( $1$ )
 
 ### 時間複雜度
-
-terms: O( $1$ )
 
 Add: O( $n1+n2$ )
 
