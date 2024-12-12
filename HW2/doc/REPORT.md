@@ -14,7 +14,7 @@ istream& operator>>(istream& is, Polynomial& p)
 ostream& operator<<(ostream& os, const Polynomial& p)
 ```
 宣告重載函式來實現輸入與輸出
-## 2.演算法設計與實作
+## 2.程式實作
 
 ### 加法
 
@@ -126,7 +126,7 @@ Add: O( $n1+n2$ )
 Mult: O( $n1 \times n2$ )
 
 Eval: O( $n$ )
-## 4.測試
+## 4.測試與驗證
 
 ```
 輸入第一個多項式:
